@@ -30,10 +30,15 @@
 
 
 .headerElement{
-    width: 160px;
+    width: 170px;
     text-align: center;
 }
 
+
+.loginHeaderElement{
+    text-transform: uppercase;
+    font-size: small;
+}
 #header{
     overflow: auto;
     border: 1px solid#111111;
@@ -102,4 +107,22 @@ body{
 #loginform{
     margin-top: 20px;
     margin-bottom: 20px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: antiquewhite;
+}
+
+.submitButton{
+    background-color: chartreuse;
+
+}
+
+.resetButton{
+    background-color: crimson;
+}
+
+.inputDiv{
+    
+    text-align: center;
+    padding: 14px;
 }
