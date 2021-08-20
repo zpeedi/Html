@@ -8,26 +8,28 @@
 </head>
 
 
-<body>
+<body class="body">
+    <header id="header">
+        <nav class="all nav" >
+            <h1 class="headerElement borderless">
+                <img src="logo.png" alt="Lexicon Html Assignment 1" width="100" height="40" class="borderless">
+            </h1>
+            <ul>
+                <li class="headerElement">1 <a href="https://www.lexicon.se">Lexicon</a></li>
+                <li class="headerElement">2 <a href="http://www.arbetsförmedlingen.se">Arbetsförmedlingen</a></li>
+                <li class="headerElement">3 <a href="https://www.google.com">Google</a></li>
+            </ul>
 
-    <nav class="all">
-        <h1>
-            <img src="logo.png" alt="Lexicon Html Assignment 1" width="500" height="200">
-        </h1>
-        <ul>
-            <li>1 <a href="https://www.lexicon.se">Lexicon</a></li>
-            <li>2 <a href="http://www.arbetsförmedlingen.se">Arbetsförmedlingen</a></li>
-            <li>3 <a href="https://www.google.com">Google</a></li>
-        </ul>
+            <a id="login" class="headerElement" href="login.html">Login</a>
+        </nav>
+    </header>
 
-        <a href="login.html">Login</a>
-    </nav>
-    <div class="all">
-        <h2>Headline</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    <div id="mainpage">
+        <h2 class="mainPageElement">Headline</h2>
+        <p class="mainPageElement">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         </p>
-        <article>
+        <article id="articleLeft" class="mainPageElement" >
             <h3>Article headline 1</h3>
             <p>
                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
@@ -42,7 +44,7 @@
                 quia voluptas sit aspernatur aut odit aut fugit, sed quia consequun
             </p>
         </article>
-        <article>
+        <article id="articleRight" class="mainPageElement">
             <h3>Article headline 1</h3>
             <p>
                 aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
@@ -54,10 +56,10 @@
                 olore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
                 corporis suscipit laboriosam, nisi ut aliquid ex ea com
             </p>
-            <img src="noshörning.jpg" width="500" height="200">
+            <img src="noshörning.jpg" width="250" height="100">
         </article>
     </div>
-    <aside class="all">
+    <aside id="aside" class="mainPageElement">
         <h3>Aside headline</h3>
         <ul>
             <li>
@@ -104,9 +106,10 @@
             </li>
         </ul>
     </aside>
-    <footer class="all">
+    <footer id="footer" class="all">
         <span>&copy; Magnus Larsson</span>
     </footer>
+</div> 
 </body>
 
 

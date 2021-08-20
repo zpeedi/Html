@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+    /*margin: 0px;
+    padding: 0px;*/
+}
+
+.borderless{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav li{
+    display: inline-block;
+    
+}
+
+.nav ul{
+    float: left;
+    padding: 0px;;
+
+}
+
+.nav a{
+    display: inline-block;
+}
+
+.nav h1{
+    float: left;
+}
+
+
+.headerElement{
+    width: 160px;
+    text-align: center;
+}
+
+#header{
+    overflow: auto;
+    border: 1px solid#111111;
+}
+
+.nav{
+    float: none;
+    
+}
+
+#login{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    float: right;
+}
+
+.left{
+    clear: both;
+}
+.leftArticle{
+    /* width: 500px; */
+    float: left;
+}
+
+#articleLeft{
+    float: left;
+    width: 300px;
+}
+
+#articleRight{
+    float: right;
+    width: 300px;
+    
+}
+
+#aside{
+    float: left;}
+    
+body{
+    width: 1024px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+}
+
+#mainpage{
+    width: 70%;
+    float: left;
+}
+.mainPageElement{
+    padding: 10px;        
+}
+
+#loginpage{
+    margin: auto;
+    width: 60%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#loginform{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
